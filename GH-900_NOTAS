@@ -1,0 +1,92 @@
+comandos git
+-------------
+
+git --version --> muestra tu version de git instalada.
+
+git -h o git --help o git help --> abre la ayuda del git
+
+para que me explique mas sobre un comando que detalle por ejemplo el git --init
+
+te leva a una pagina web html
+
+me quede clase 10 configuraciones globales.
+
+configuraciones globales en git
+--------------------------------
+
+aplica configuraiones globales en git
+
+git config --global user.name "Christian Campos"
+
+configurar el correo
+
+git config --global user.email "c_camp@hotmail.com" --> ese es el correo asociado  tu gitbub
+
+Comprobamos que estas configuraciones se han aplicado:
+
+git config --global -e
+
+Creacion de un repo local en git paso 1
+--------------------------------------------
+
+para que tu poryecto sea giteable
+
+collocate dentro del proyecto clic derecho y le das a git bash
+
+git init --> esto crea el repo dentro de tu carpeta osea lo hace giteable a tu proyecto.
+
+ahora en tu proyecto debe de aparecer una carpeta oculta .git
+
+git status --> con git status logro ver informacion del repositorio.
+
+* a la clase 12
+
+--------------------------------------------------------
+
+vamos  ver como revertir cambios en nuestra repo y hacer pruebas, trabajar en equipo y tener un historial
+trabajando con los commits.
+
+commit es un momneto en el proyecto que todo se congela y aqui es donde se crea el punto de restauracion y creado
+el commit puedo regresar a un punto anterior cuando lo necesite.
+
+en git hay 3 estados o apartados
+
+working directory --> es donde tenemos los elementos para trabajar en nuestro proyecto.
+
+stage area --> cuando quierea crear un punto de restauracion un commit o guardar para crear la copia de seguridad
+
+y cuando hago el commit pasan al rfepositorio 
+
+
+repository --> ya paso aca
+
+para saber si aun no esta trackeado o no esta grabado los cambios le damos un:
+
+git status:
+
+si en la seccion un tracked files y debajo los archivos estan en rojo esto quiere decir que estos archivos aun stan en el
+working area
+
+todo l uq etengo aqui lo puedo incluir al stage
+
+como agrego archivos en rojo al stagging area??
+
+git add + el nombre o ruta del archivo ejemplo:
+
+git add index.html
+
+peroo si quiero todo ya que vaya del working al area de stage le doy:
+
+git add .
+
+para que se vayan al repositorio local ahora si y grabe esa version ese punto de estado para despues volver seria:
+
+git commit -m "un mensaje"
+
+cuando hago esto, el commit se crea
+
+si hago again un git status, ya no me sale mada por que ya todo esta el el commit en esa version grabada.
+
+vamos a alimininar unos archivos del proyecto a proposito.
+
+git status para ver que archivos han sido borrados.
