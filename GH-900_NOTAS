@@ -90,3 +90,68 @@ si hago again un git status, ya no me sale mada por que ya todo esta el el commi
 vamos a alimininar unos archivos del proyecto a proposito.
 
 git status para ver que archivos han sido borrados.
+
+13 historial e commits
+-----------------------
+
+como moverse entre commits o puntos de restauracion del primero al tercero y asi..
+
+con git status --> ves Tambien se se ha eliminado un archivo
+
+para volver al ultimo commit:
+
+git checkout -- .
+
+ok como revisar el historial , quien lo modifico en que fecha y hora, etc.
+
+git log --> tengo un historial de cuando se han hecho los commit la hora, fecha y usuario.
+
+git log --oneline --> te muestra solo los commits id y descripcion en lista
+
+sales com :q como vi de Linux
+
+este es el formato del histotial ejemplo:
+
+commit 6aaa45ed31d23e23719f60dcd7058cadaa089bbd
+Author: chcamp <c_campos_cca@hotmail>
+Date:   Fri Feb 13 18:34:15 2026 -0500
+
+    Commit inicial. Version 1 del proyecto
+
+con ese id este: 6aaa45ed31d23e23719f60dcd7058cadaa089bbd
+voy a poder moverme y retornar a que historial o commit quiero retroceder.
+
+14. Moverse entre commits de git
+
+git reset --> retorna a un tiempo pasado a algun commit como restaurar algo hecho anterior.
+
+hay varias opciones:
+
+git reset --mixed + hash del commit --> ir al commir pero sin modificar los otros commit que tenemos
+
+git reset --hard + hash del commit --> elimina los commits anteriores definitivamente hacerlo con cuidado
+
+los commit no se eliminan estan escondidios 
+
+como se sacan los commits que no se muestran??
+
+git reflog --> este comando sale un historial de tooodo lo que he hecho, haya retrocedido con el git reset o no.
+
+**si aplico un git reset hard puedo regresas???
+
+si puedo:
+
+con el mismo 
+
+git rest --hard con el id del commit que quieres adelantar 
+
+ejemplo:
+
+$ git reset --hard 964f470
+HEAD is now at 964f470 Aqui se agregaron todos los archivos que faltan
+
+y ahi ya se restauran los archivos eliminados.
+
+a la seccion 5
+
+
