@@ -286,15 +286,23 @@ el Pull request es como un pedido, una propuesta formar para que lo revisen y lo
 o cambio propuesto por el dev.
 
 * repo original ----- FORK CLONACION ---------------> usuario2
-↑             <--------PULL REQUEST---------------        | 
+↑             <--------PULL REQUEST---------------        ↑
 |                                                         |
-|                                                         |
-|                                               Copia del repositorio**
+|                                                         ↓ 
+|                                               ** Copia del repositorio del fork repo original
 |                                                    |              |
 |                                                    |              |
 |                                                    ↓              ↓  
-|                                                  *** repo            **** repo
+|                                                  *** repo rama1           **** repo rama2
 usuario1                                               ramificacion
+
+29. realizamos un fork
+-----------------------
+bueno, vamos a usar este repo de ejemplo para hacer un fork de este poryecto:
+
+https://github.com/KlingAIResearch/ReCamMaster
+
+
 
 
 
