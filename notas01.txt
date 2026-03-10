@@ -101,6 +101,119 @@ git checkout -- .
 
 como moverse entre commits o puntos de restauracion del primero al tercero y asi..
 
+como moverse entre commits o puntos de restauracion del primero al tercero y asi..
+
+con git status --> ves Tambien se se ha eliminado un archivo
+
+para volver al ultimo commit:
+
+git checkout -- .
+
+ok como revisar el historial , quien lo modifico en que fecha y hora, etc.
+
+git log --> tengo un historial de cuando se han hecho los commit la hora, fecha y usuario.
+
+git log --oneline --> te muestra solo los commits id y descripcion en lista
+
+sales com :q como vi de Linux
+
+este es el formato del histotial ejemplo:
+
+commit 6aaa45ed31d23e23719f60dcd7058cadaa089bbd
+Author: chcamp <c_campos_cca@hotmail>
+Date:   Fri Feb 13 18:34:15 2026 -0500
+
+    Commit inicial. Version 1 del proyecto
+
+con ese id este: 6aaa45ed31d23e23719f60dcd7058cadaa089bbd
+voy a poder moverme y retornar a que historial o commit quiero retroceder.
+
+14. Moverse entre commits de git
+
+git reset --> retorna a un tiempo pasado a algun commit como restaurar algo hecho anterior.
+
+hay varias opciones:
+
+git reset --mixed + hash del commit --> ir al commir pero sin modificar los otros commit que tenemos
+
+git reset --hard + hash del commit --> elimina los commits anteriores definitivamente hacerlo con cuidado
+
+los commit no se eliminan estan escondidios 
+
+como se sacan los commits que no se muestran??
+
+git reflog --> este comando sale un historial de tooodo lo que he hecho, haya retrocedido con el git reset o no.
+
+**si aplico un git reset hard puedo regresas???
+
+si puedo:
+
+con el mismo 
+
+git rest --hard con el id del commit que quieres adelantar 
+
+ejemplo:
+
+$ git reset --hard 964f470
+HEAD is now at 964f470 Aqui se agregaron todos los archivos que faltan
+
+y ahi ya se restauran los archivos eliminados.
+
+
+---------------------------------------------------------------------------------------
+
+21- creando mi primer repo
+
+22 subiendo un proyecto al repositorio creado.
+
+posicionarse con git bash dentro de una carperta del proyecto que quieres subir
+git init
+
+luego 
+
+git status --> para verificar que hay que subir pendiente en rojo
+
+git add . --> pasarlo a esa zona ya para hacer el commit.
+
+git commit -m "mensaje" --> aqui es donde se crea la version o el punto para retroceder.
+
+git branch -M main --> lo que vaya a agregar lo agregue a la rama principal.
+
+23.- camnbios en nuestro repositorio.
+----------------------------------------
+
+hacen un cambio en un archivo por ejemplp el index.html
+
+verificamos si hay modification con git status
+
+para por ejemplo hacer que los archivos js no se suban
+
+creamos un documento .gitignore parq que solo se suba el .html esos cambios
+
+de ahi hacemos como siempre:
+
+git add .
+
+git commit -m "un mensaje"
+
+git push -u origin main --> asi se sube los cambio del repo local al remoto.
+
+para que te haga caso el -gitignore es:
+
+git rm --cached *.js
+
+24. Clonacion de repositorios
+------------------------------
+
+creamos ua carpeta local
+
+ahi clic derecho dentro del la carpeta git bash
+
+y en la terminal de git clone + el link del git del repo
+
+ejemplo:
+
+git clone https://github.com/fpgadeveloper/camera-fmc-vitis-platforms.git
 
 
 
