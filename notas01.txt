@@ -269,6 +269,33 @@ git  merge rama orogen --> rama destino
 ejemplo
 git merge sub main
 
+28. forks y pull requests
+---------------------------
+
+que es un fork?
+---------------
+un fork es la creacion de una copia independiente de un repo ajeno.
+permite a los usuarios contribuir a un proyecto sin afectar el repo orignal y ofrece flexibilidad para
+experimentar y proponer cambios.
+
+que es un PULL REQUEST?
+------------------------
+los PR o pull request son propuestas de cambios que permiten a los colaboradores discutir, revisar
+y fusionar contribuciones al repo principal.
+el Pull request es como un pedido, una propuesta formar para que lo revisen y lo acepten esa mejora
+o cambio propuesto por el dev.
+
+* repo original ----- FORK CLONACION ---------------> usuario2
+↑             <--------PULL REQUEST---------------        | 
+|                                                         |
+|                                                         |
+|                                               Copia del repositorio**
+|                                                    |              |
+|                                                    |              |
+|                                                    ↓              ↓  
+|                                                  *** repo            **** repo
+usuario1                                               ramificacion
+
 
 
 
