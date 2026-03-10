@@ -215,6 +215,65 @@ ejemplo:
 
 git clone https://github.com/fpgadeveloper/camera-fmc-vitis-platforms.git
 
+Seccion 07 Forks y colaboraciones
+**********************************
+
+Ramas y ramificacion dentro de git
+crear una rama nuena
+si hago el comando 
+git branch --> muestra todas las ramificaciones que existen en el proyecto (y la de verde es la que tiene * es la que estas actualmente)
+
+* crear una nueva rama
+git branch + nombre de la rama
+ejemplo:
+git branch sub
+
+para verificar si se creo hacemos:
+git branch y lista las ramas existentes.
+
+* para pasar de rama en rama es:
+
+git checkout + nombre de rama
+ejemplo:
+git checkout sub
+
+* para eliminar una rama que hemos creado:
+git branch -d + nombre de la rama
+ejemplo
+git branch -d sub
+
+NOTA!!: NO PUEDES ELIMINAR LA RAMA ESTABDO EN ELLA , PARA ELIMIAR UNA RAMA , DEBES ESTAR EN OTRA Y DESDE ESA OTRA ELINAR LA RAMA!!
+
+* crear una rama y a la vez moverse a esa rama:
+
+git checkout -b + nombre de la rama
+ejemplo:
+git checkout -b sub
+
+27. haciendo cambios en el repo de una rama:
+--------------------------------------------
+
+en local los cambios se reflejan tanto en la rama main como el de sub 
+como puedo hacer para que los cambios que hice la creacion del archivo index.ts sean solo para la rama sub?
+
+nos movemos a la rama sub y estando ahi hacemos:
+git add . --> movemos todos los arvhicos nuevos hacia esa rama
+y hacemos un commit para confirmar los cambios en esta rama sub:
+git commit -m "Añadiendo archivo index.ts"
+
+* para comparar las ramas los camnbios hacemos:
+git diff main sub
+
+* Una vez trabajado en esa raba sub algun camnbio que ya quiera incorporarlo en la rama principal main como hago?
+git  merge rama orogen --> rama destino
+ejemplo
+git merge sub main
+
+
+
+
+
+
 
 
 
