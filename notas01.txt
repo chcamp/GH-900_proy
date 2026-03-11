@@ -219,7 +219,7 @@ Seccion 07 Forks y colaboraciones
 **********************************
 
 Ramas y ramificacion dentro de git
-crear una rama nuena
+crear una rama nueva
 si hago el comando 
 git branch --> muestra todas las ramificaciones que existen en el proyecto (y la de verde es la que tiene * es la que estas actualmente)
 
@@ -242,7 +242,7 @@ git branch -d + nombre de la rama
 ejemplo
 git branch -d sub
 
-NOTA!!: NO PUEDES ELIMINAR LA RAMA ESTABDO EN ELLA , PARA ELIMIAR UNA RAMA , DEBES ESTAR EN OTRA Y DESDE ESA OTRA ELINAR LA RAMA!!
+NOTA!!: NO PUEDES ELIMINAR LA RAMA ESTANDO EN ELLA , PARA ELIMIAR UNA RAMA , DEBES ESTAR EN OTRA Y DESDE ESA OTRA ELINAR LA RAMA!!
 
 * crear una rama y a la vez moverse a esa rama:
 
@@ -257,7 +257,7 @@ en local los cambios se reflejan tanto en la rama main como el de sub
 como puedo hacer para que los cambios que hice la creacion del archivo index.ts sean solo para la rama sub?
 
 nos movemos a la rama sub y estando ahi hacemos:
-git add . --> movemos todos los arvhicos nuevos hacia esa rama
+git add . --> movemos todos los archivos nuevos hacia esa rama
 y hacemos un commit para confirmar los cambios en esta rama sub:
 git commit -m "Añadiendo archivo index.ts"
 
@@ -265,7 +265,7 @@ git commit -m "Añadiendo archivo index.ts"
 git diff main sub
 
 * Una vez trabajado en esa raba sub algun camnbio que ya quiera incorporarlo en la rama principal main como hago?
-git  merge rama orogen --> rama destino
+git  merge rama origen --> rama destino
 ejemplo
 git merge sub main
 
@@ -282,7 +282,7 @@ que es un PULL REQUEST?
 ------------------------
 los PR o pull request son propuestas de cambios que permiten a los colaboradores discutir, revisar
 y fusionar contribuciones al repo principal.
-el Pull request es como un pedido, una propuesta formar para que lo revisen y lo acepten esa mejora
+el Pull request es como un pedido, una propuesta formal para que lo revisen y lo acepten esa mejora
 o cambio propuesto por el dev.
 
 * repo original ----- FORK CLONACION ---------------> usuario2
@@ -293,14 +293,106 @@ o cambio propuesto por el dev.
 |                                                    |              |
 |                                                    |              |
 |                                                    ↓              ↓  
-|                                                  *** repo rama1           **** repo rama2
-usuario1                                               ramificacion
+|                                                  *** repo rama1   **** repo rama2
+usuario1                                               ramificaciones
 
 29. realizamos un fork
 -----------------------
 bueno, vamos a usar este repo de ejemplo para hacer un fork de este poryecto:
 
 https://github.com/KlingAIResearch/ReCamMaster
+
+este es el git que quiero hacer el fork:
+
+https://github.com/KlingAIResearch/ReCamMaster.git
+
+pero en la parte superior derecha del github, hay un boton que dice "Fork"
+
+si le doy ahi va a crear una copia de ese repositorio a mi github
+
+le damos a ese boton "Fork"
+y nos llevara como a un formulario como para ponerle un nombre a ese proyecto
+-podemos llenar el nombre
+-una descripcion-
+
+Abajo hai un boton verde que dice "Create Fork" , le damos ahi
+
+y aqui es donde tenemos nuestro fork o nuestro depositorio
+
+Clonando nuestro repositorio  que hicimos fork en una carpeta local
+---------------------------------------------------------------------
+
+ahora creamos una carpeta en nuestra pc la llamamos "fork_recammaster"
+
+estando dentro de esa carpeta copiamos el git de nustro fork creado, es este:
+
+https://github.com/chcamp/ReCamMaster.git
+
+dentro de nuestra carpeta hacemos clic derecho terminal o git bash si es windows
+
+y hacesmo un:
+
+git clone https://github.com/chcamp/ReCamMaster.git
+
+Vamos a borarr un archivo el .mp4 y vamos a darle un
+
+git add .
+para que agarre ese cambio de que se elimino un archivo.
+
+hacemos un:
+
+git commit -m "removiendo el .mp4"
+ y despues, para subir esos cambios en la rama main del repo remoto:
+
+git push origin main
+
+para verificar le hacenos un:
+
+git status
+
+ok y vamos al repo remoto , refrescamos ya no deberiamos ver ese archivo .mpgit 4 dado que se ha eliminado.
+
+30. Realizamos un PR o PULL REQUEST
+-------------------------------------
+
+Vamos a ver como se realiza un pull request. Para la prueba vamos a creas un nuevo archivo de prueba
+lo llamaremos: "nuevo_documento.txt" y lo vamos a subir al repo remoto del fork
+
+git add .
+git commit -m "Agregando txt"
+
+finalmente un:
+
+git push origin main
+
+OK como puedo hacer que estos cambios y este archivo que agregue se integre en el reposigtorio del proyecto
+original??
+
+Vamos a la seccion de "Pull Request"
+le damos a la letra "Create Pull request" o ariba en la parte superior derecha el botno verde 
+"Create Pull Request"
+Bueno no hemos creado otra rama en este repo de fork pero bueno le damos al boton verde
+"Create Pull Request"
+le ponemos un titulo: "AÑADIR UN TXT"
+UNA DESCRIPCION:
+"He añadido un .txt"
+
+en la parte inferior derecha le damos al boton verde de "Create Pull Request"
+Vamos a la seccion de Pull request y vemos ahi nuestro PR que se llama :
+"AÑADIR UN TXT"
+
+Abajo el autoo o dueño de ese repo original ese proyecto le puede dar al boton verde:
+"Merge Pull Request"
+
+con eso se concreta, se fusiona ese proyecto fork de github con el del dueño original si el quiere.
+le da merge pull request.
+
+TAREA:
+Tarea: Practiquemos lo aprendido
+hacerlo mañana.
+
+
+
 
 
 
