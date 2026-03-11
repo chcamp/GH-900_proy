@@ -150,7 +150,7 @@ si puedo:
 
 con el mismo 
 
-git rest --hard con el id del commit que quieres adelantar 
+git reset --hard con el id del commit que quieres adelantar 
 
 ejemplo:
 
