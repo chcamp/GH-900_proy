@@ -202,6 +202,11 @@ para que te haga caso el -gitignore es:
 
 git rm --cached *.js
 
+para que te haga caso de manera puntual mejor pol el nombre del archivo que no quiere que suba o modifique especificamente
+dentro del gitignore
+ejemplo:
+"main.js"
+
 24. Clonacion de repositorios
 ------------------------------
 
@@ -369,7 +374,7 @@ OK como puedo hacer que estos cambios y este archivo que agregue se integre en e
 original??
 
 Vamos a la seccion de "Pull Request"
-le damos a la letra "Create Pull request" o ariba en la parte superior derecha el botno verde 
+le damos a la letra "Create Pull request" o ariba en la parte superior derecha el boton verde 
 "Create Pull Request"
 Bueno no hemos creado otra rama en este repo de fork pero bueno le damos al boton verde
 "Create Pull Request"
@@ -387,9 +392,12 @@ Abajo el autoo o dueño de ese repo original ese proyecto le puede dar al boton 
 con eso se concreta, se fusiona ese proyecto fork de github con el del dueño original si el quiere.
 le da merge pull request.
 
-TAREA:
-Tarea: Practiquemos lo aprendido
-hacerlo mañana.
+8. CONFLICTOS EN GITHUB
+------------------------
+
+31. Conflictos en GitHub
+-------------------------
+
 
 
 
