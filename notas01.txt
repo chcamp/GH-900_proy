@@ -397,8 +397,50 @@ le da merge pull request.
 
 31. Conflictos en GitHub
 -------------------------
+Vamos a ver la identificacion y resolucion de conflictos que puede tener github.
+en GIt los conflictos surgen cuando se intenta fusionar cambios en un archivo 
+y el sistema detecta modificaciones conflictivas en las mismas lineas. Resolver
+conflictos implica la intervension manual para decidir como combinar los cambios
+de manera coherente.
 
+La resolucion de problemas en git las herramientas y estrategias inlcuyen el uso de editores de texto,
+herramientas visuales y tecnicas de fusion automatica. la eleccion depende de la preferencia del
+desarrollador y la complejidad del conflicto.
 
+Buenas practicas y prevencion de conflictos
+-------------------------------------------
+
+Buenas practicas y prevencion de conflictos el git incluyen el uso de ramas tematicas,
+la actualizacion frecuente y la comunicacion efectiva entre colaboradores. Estas practicas 
+ayudan a minimizar conflictos y mantener un flujo de trabajo eficiente.
+
+32. Mejores practicas en GitHub
+-------------------------------
+
+1.- Estructura de carpeta coherente
+2.- nombres de archivos y nomenclaturas claras
+3.- un README detallado.
+
+Colaboracion efectiva con ramas
+--------------------------------
+
+1.- Nombramiento significativo.
+2.- Ramas cortas y especificas.
+3.- Uso de ramas protegidas
+4.- Sincronizacion fuerte.
+5.- Revision de codigo.
+
+automatizacion de fljos con github actions
+-------------------------------------------
+
+esto hace que optimices el desarrollo de software mejora la eficiencia al ejecutar tareas automaticas
+como pruebas, despliegues y mas en respuesta a eventos especificos en el repositorio.
+estas practicas  asegura una integracion continua y fluida y una entrega eficiente.
+
+Seccion 09: Github MarkDown
+----------------------------
+
+33. Que es Github Markdown??
 
 
 
