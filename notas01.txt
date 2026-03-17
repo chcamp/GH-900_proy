@@ -652,7 +652,50 @@ Para crear una lista de tareas, debe añadir como prefijo un guion y espacio, se
 35. Que es github Copilot
 ------------------------------
 
-Aca
+Que es github Copilot de manera teorica? github fue adquirido por microsoft
+las herramientas que se han desarrollado en su mayoria provienen de microsoft
+
+este es un asistente de Inteligencia artificial como el chat gpt
+es una herramienta de programacion asistida por IA desarrollada por github
+en colaboracion con Open AI, usa modelo de lenguaje avanzados para dar sugerencias 
+de codigo en tiempo real mientras escribes acelerando el proceso de desarrollo y 
+facilitando la creacion de alta calidad.
+
+36. Github code spaces
+-----------------------
+
+Que es github code spaces?? 
+es un entorno de desarrollo completamente instalado en las nubes que 
+permite a los desarrolladores escribir , depurar y revisar su codigo directamente 
+desde su navegador.
+
+es un Visual Studio Code pero en la nube.
+un edito de codigo pero en la nube
+ es un ide pero en la nube
+
+caracteristicas de github code spaces
+--------------------------------------
+
+configuracion rapida y personalizada.
+integracion nativa con github
+conlaboracion en tiempo real
+accesibilidad desde cualquier lugar
+creacion instantanea de entornos.
+
+que beneficios trae:
+acceso instantaneo a entornos personalizados en code espaces
+flexibilidad y colaboracion remota en code spaces
+eliminacion de barreras en configuracion de code spaces
+inregracion nativa de github en code spaces
+producyividad mejorada con code spaces
+
+Seccion 12: Github Project y Github classic
+--------------------------------------------
+
+37. Que es github project y giyhub classic??
+---------------------------------------------
+
+
 
 
 
