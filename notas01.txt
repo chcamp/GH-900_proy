@@ -692,8 +692,64 @@ producyividad mejorada con code spaces
 Seccion 12: Github Project y Github classic
 --------------------------------------------
 
-37. Que es github project y giyhub classic??
+37. Que es github project y github classic??
 ---------------------------------------------
+
+Esto sirve para administrar de alguna manera nuestros proyectos en github entonces
+que es github project??
+-----------------------
+
+Github project es una herramienta de gestion de proyectos que permite organizar
+y visualizar tareas, problemas y Pull Requests en tableros personalizables.
+
+esto permite al equipo organizar tareas de una manera muy eficiente.
+
+creas un poryecto ,agregas a colaboradores y en una tabla vas apuntando que es lo que
+va haciendo cada colaborador puedes personalzar como vas a presentar todas las necesidades
+que necesita tu proyecto puedes crear columnas y ver diferentes etapas de lo que se este 
+desarrollando (me huele a kanbam..)
+si si tambien te deja crear tarjeta de tareas (como Scrum)
+cada tarea o PR puede ser presentando como una tarjetas puede tener comentarios enlaces etc
+se puede asignar tareas a cada miembro si es un scrum
+
+si si creas una tabla con varias columnas y pones completado en progreso o incompleto como kanbam
+luego de creada esas 3 columnas podemos dentro crearle tarjetas de tareas 
+identificamos una tarjeta por cada columna con detalle sobre la tarea y asignarle a un dev
+que es lo que va a realizar..
+
+por ejemplo que un dev arregle un bug , crea una tarea y se la asigna a el luego el dev
+cuando haya resuelto el bug crea un pull request para que suba esos cambios y ese fix
+
+Github Project Classic
+----------------------
+este que es?? 
+es una funcionalidad clasica de gestion de proyectos bueno esto es kanban dice imagino que el 
+github porject es igual tambien tiene columnas y tarjetas..
+cada tarjeta es una tarea
+
+tambein tiene su columna backlog ect etc y va moviendo las tarjetas entre columnas por hacer hecho o
+en curso
+comparacion de los dos
+------------------------
+
+ambos sirven para la misma cosa gestionar un poryecto agil
+- Actividad del repositorio --> evaluamos mediante los forks las estrellas y contribuciones
+asi te das cuenta si el proyecto esta activo
+
+- Gestion de problemas y Pull Request --> la capacidas de un poryecto para gestionas pull request
+y problemas es critico es importante dar seguimiento a esto para la salud del proyecto como se 
+va resolviendo los problemas 
+
+- Contribuciones de colaboradores --> ambos persmiten la contribucion entre varios colaboradores }
+en un proyecto y ves que dev o personas han avanzado el proyecto a lo largo del tiempo.
+lleva un historial del proyecto. 
+
+38. Creando un proyecto tradicional
+------------------------------------
+
+
+
+
 
 
 
