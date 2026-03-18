@@ -747,6 +747,80 @@ lleva un historial del proyecto.
 38. Creando un proyecto tradicional
 ------------------------------------
 
+Los proyectos en github va de como se va a organizar el proyecto y podemos irlo armando
+hay dos formas de hacerlo:
+
+una de usario y otra de manera empresarial
+
+1.- forma normal de usuario
+-----------------------
+ En la parte superior hay un apartado de projects ahi le damos clic es como una pestaña
+a la derecha hay un boton grande verde que dice "New Project" le damos clic ahi
+
+ahi vamos a ver que nos dan distintas templatyes para el proyecto como Kanbam ,   
+team planning, feature release etc, puedo usar tempate de tabla 
+
+en la parte izquierda hay de tipo tabla elegimos table
+le vamos a poner un nombre: "Proyecto test tabla"
+y le damos al boton verde "Create Project"
+en la parte izquierda le damos al simbolo "+"
+para crear un nuevo Issue
+
+podemos jalar issues que ya existen eun algun repo de gihub vamos a jalar en esta tabla uno que 
+ya este hecho vamos a nuestro repo de GH-900 y seleccionamos un Issue que ya existe.
+entramos al issue con un clic
+copiamos su link arriba:
+
+https://github.com/chcamp/GH-900_proy/issues/1
+
+y si has creado un poryecto de tabla lo puedes pegar ahi si estas en el mismo proyecto el issue 
+automaticamente ya aparece como un item en la tabla del proyecto que creaste.
+ y esta seria una tarea nueva de nuestro proyecto.
+a medida que vas creando issues, van apareciedo como item como tarea en tu tabla creada.
+
+en la seccion Assigness puedes asignar a un miembro del repositorio agregado para que 
+haga o resuelva la tarea
+
+tambien puedes seleccionar en que estado esta el issue o tarea:
+"Todo", "In Progress" o "Done"
+como Kamban
+
+arriba puedes agregar mas status en los puntitos suspencivos de status > Field Setting
+vamos a crear un nuevo estado llamado "Revision"
+Ya lo podemos usar en Revision
+
+Esto es mas que nada para proyectos de un usuario o proyecto chico.
+todo a la derecha agregamos columnas con "+" en Labels
+
+Podemos agregar columna de la Pull Request los links.
+Agregar columnas de a que repositorio pertenece esas Pull Request.
+Y tambien columna de cuantos Reviewers ha tenido y mas..
+
+arriba en la pestaña "New View" , podemos darle una nueva vista a nuestra nueva tabla.
+Hay:
+Table
+Biard
+RoadMap
+
+el board es para jalar las tarjetas tipo Kamban con columnas Todo , in progress y Done.
+le podemos dar en Add Item en cada columna
+
+cuando ya termine el issue o la tarea podemos borrarlo o arvhivarlo en la izquierda de cada fila
+hay una muesca una flecha hacia abajo le podemos dar 
+Delete from project o
+Archive
+
+39. Creando una organización y un proyecto para la misma
+------------------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 
