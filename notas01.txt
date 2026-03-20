@@ -813,6 +813,105 @@ Archive
 39. Creando una organización y un proyecto para la misma
 ------------------------------------------------------------
 
+Vamos a hacer un proyecto en github pero mas en entorno de organizacion mas para corporativo
+
+dice el tutor que en github te pregunta los pasos para hacer un proyecto pero este que es
+a nivel de organizacion o empresa
+
+Para ello nos vamos a la parte superior derecha clic en nuestro perfil
+en mi caso "chcamp" (el circulo donde sale tu cara anime)
+y en esa lista desplegable hay una seccion que se llama "Organizations"
+le damos clic ahi..
+
+no hay nada en la derecha hay un boton gris que dice: "New Organization", le damos clic ahi
+y nos sale 3 opciones:
+Free
+Team por 4$ al mes
+Enterprise por 21$ al mes
+
+Elegimos la free
+le damos al boton "Create a Free Orgnization"
+ponemos un nombre :
+"chcamptest"
+Contact Email:
+"c_campos_...hotmail" mi correo
+y seleccionamos la opcion de que la organizacion va a ser personal:
+[X] My personal account
+
+esa seleccionamos
+un captcha para verificar la cuenta
+[X]  I hereby accept the Terms of Service. For more information about GitHub's privacy practices, see the GitHub Privacy Statement.
+
+Aceptamos los terminos y le damos clic en el boton verde:
+"Next"
+en la sgte ventana podremos ya en este proyecto github empresarial empezar a añador
+usuarios para este poryecto mediante un correo.
+por ejemplo he puesto mi otro email: "cca40060138@gmail.com"
+
+y le damos al boton verde "Complete Setup"
+
+me pide el password de mi cuenta github
+
+ok y nos sale el panel del proyect que hemos creado. una organizacio  ya creada.
+si apartir de esta organizacion puedo crear mas proyectos lo puedo hacer
+-------------------------------------------------------------------------
+
+como??
+lo mismo arriba hay una pestaña que dice "Projects"
+Y lo mismo creamos un boton project con el boton verde que dice "New Project"
+igual vamos a seleccionar table para este nuevo proyecto.
+le ponemos un nombre:
+"Proyecto01_empresa"
+y le damos al botno verde inferior derecha que se llama: "Create Project"
+y aqui lo mismo podemos crear issues, vista tabla para el Kamban etc
+podemos crae Issues > New Repository
+Vamos a crear un nuevo repositorio.
+al repo nuevo lo llamamos "udemy01"
+esta bie que sea privado
+activamos readme.md
+y le damos abajo al botno verde que se llama: "Create Repository"
+ok dentro de ese repo le agregamos un Isssue arriba en la pestaña Issue > New isue
+ese boton verde
+en nombre y descripcion le ponemos: "BUG"
+Labela a la derecha le ponemos de tipo "Bug"
+y le damos al boton "Create"
+Ya podemos empezar a referenciar en nuestro proyecto personal:
+le damos en + > Add Item from Repository
+y ahi vemos el Issue que creamos llamado "BUG", lo seleccionamos.
+y le damos al boton verde "Add Select Item"
+Y vemos que ya se listo ese BUG en nuestra tabla de nuestro proyecto
+
+Podemos tambien ordenar todas estas tareas.
+le damos en la esquina > + > new field
+que sea de uan sopa opcion osea "Single Select"
+
+Nombre: "Prioridad"
+
+y añadimos opciones como abajo en Options como
+"Alta prioridad" le damos en Add
+"Media" le damos en Add
+"Baja" le damos en Add
+
+le damos al botno save para que aparezca esa nueva columna con esas opciones
+Si vemos esa columna Prioridad y la desplegamos , veremos que estane sas tres opciones
+para elegir: Alta , Media y Baja
+Tambien entonces esta lista de Issues que vamos añadiendo lo podemos ir ordenando por Prioridad.
+
+tambien en View la pestala de la equina izuiwrda podemos darle ujna vista em grupos
+agruparlos por: en este caso Prioridad
+
+es importante que sepamos como organizar en github estos proyectos.
+esto si viene en la certificacion
+
+Seccion 13: Git Hub Issues
+---------------------------
+
+40. Que son las Issues??
+------------------------
+
+
+
+
 
 
 
