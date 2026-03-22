@@ -909,6 +909,50 @@ Seccion 13: Git Hub Issues
 40. Que son las Issues??
 ------------------------
 
+en Github las issues son herramientas para realizar seguimiento , discutir
+y resolver problemas , mejoras o tareas especificas en un repositorio.
+Facilictan la colaboracion y gestion de proyectos.c
+el github el issue es como un chat algo asi y ahi los colaboradores que estan en ese repo
+pueden darte consejos y posibles solicuones al issue
+Tenemos labels para comentar y labels de asignaciones para
+categorizar y asignarse miemnro del equipo.
+
+Se crea hna Issue para implementar por ejemplo un Team menber un dev una
+nueva funcionalidad entonces se crea un issue para eso.
+un titulo
+una descripcion
+requisitos , etc
+- luego se le asigna una etiqueta o label a ese issue 
+etiqueta de "Nueva Funcionalidad" y asignarserla a un desarrollador especifico
+del equipo 
+este issue generara comentarios y discusiones con sugerencias
+preguntas o aportes adicionales
+Tambie se podra referencias a una issue anterior que tenga relacion con este issue
+o una relacion entre la tarea y el codigo que se esta asignando. 
+
+Flujos de trabajos con Issues
+-----------------------------
+
+Los flujos de trabajos con issues en github , son procesos estructurados que guian la
+gestion, discusion y resolucion de problemas o tareas en un repositorio. establecen
+pasos claros para mejorar la eficiencia y colaboracion. 
+
+establece este flujo de issues pasos claros desde la creacion hasta la resolucion 
+de problemas 
+Mejores practicas y consejos para los Issues en github
+------------------------------------------------------
+
+- titulos descriptivos
+- etiquetado consustentcr
+- asignacion responsable
+- descripciones detalladas.
+- comentarios constructivos.
+
+41. Creando Issues en github
+-----------------------------
+
+
+
 
 
 
