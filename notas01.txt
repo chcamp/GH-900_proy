@@ -999,6 +999,13 @@ ok le damos al boton verde de "Create"
 ok nua vez acabe ek issue puedo yo cerrar este issue
 De esa manea se crean los issues.
 
+Seccion 13: Seguridad de GitHub
+---------------------------------
+
+42. Accesos y permisos de Github
+--------------------------------
+Vamos a ver.
+
 
 
 
