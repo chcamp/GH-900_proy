@@ -950,6 +950,56 @@ Mejores practicas y consejos para los Issues en github
 
 41. Creando Issues en github
 -----------------------------
+Vamos a ver como implementar los Issues dentro de Git 
+resaltar que las creaciones de los Issues no es tanto obligatorio en poryecto real.
+por que? por que hay manera de comunicarse en otras plataformas y otros medios para
+usar y gestionar los issues.
+
+Pero si hay otras maneras de hacerlo, para que estan enfocados los issues??
+Vamos a un repo y vamos a la seccion de issue en la parte superior
+Ahi vemos que enemos dos issues de la practica anterior 
+si emtramos al issue vemos que tiene un mensaje o descripcion
+
+Imaginemso que el issue ya este acabado, vamos abajo y le damos al boton
+"Close with Comment" y se va a cambiar el boton a "re open" y este issue estara cerrado.
+
+eso queire decir que no habra peticiones abiertas 
+Como podemos crear un issue?
+----------------------------
+
+Primero vamos a modificar las labels 
+vamos a la seccion issues y seleccionamos al boton "labels"
+ok como puedo crear una nueva label aparte de las que tengo ya predeterminadas
+en la parte derecha esquina le damos al boton "New Label"
+podemos darle
+un nombre: New Funcionalidad
+descripcion : una nueva funcionalidad
+un color: amarillo
+Y le damos al boton "Crate Label"
+OK ya se nos lista ese nuevo label que creamos.
+
+vamos ahora a una nueva cuenta para crear una nueva issue
+creamos una nueva issue
+Titulo:
+Propuesta de nueva funcionalidad de game
+Descripcion:
+Deseo implementar una nueva funcionalidad de ataque en el juego
+en la parte del text area hay herramienta para poner el texto
+en negrita, cursiva, en listas.
+
+podeos subir arcchivos, reneicas al alguien con @ch_camp
+por ejemplo.
+
+en la pastaña de preview al costado, vamos viendo como se va a a ver.
+- Fuera de la caja de texto a la derecha tenemos opciones.
+que persona estara asignada o que filtro o etiqueta estara asignado
+
+lo asignamos a mi mismi
+ok le damos al boton verde de "Create"
+ok nua vez acabe ek issue puedo yo cerrar este issue
+De esa manea se crean los issues.
+
+
 
 
 
