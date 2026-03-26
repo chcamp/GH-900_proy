@@ -1005,6 +1005,77 @@ Seccion 13: Seguridad de GitHub
 42. Accesos y permisos de Github
 --------------------------------
 Vamos a ver.
+Los accesos y permisos en github se refieren a la gestion de quien puede realizar
+acciones especificas en un repositorio. establecer permisos adecuados garantiza 
+la seguridad y colaboracion efectiva en un proyecto.
+
+estos accesi incluyen: lectura, escritura y administacion del mismo
+colaboladores pueden interactuat con el proyecto pero sin comprometer la estabilidad.
+poneer a cada usuario para saber que pueden hacer en dicho repositorio
+ya sea para aceptar las pull request, para realziar cambios, verficar los cambios
+asiganr tareas etc etc
+
+Tipos de acceso y roles en github
+--------------------------------
+Roles mas comunes:
+
+- Colaboradores
+    Estos usuarios pueden leer y escribir en el repositorio,
+    pueden enviar cambios mediante pull request y colaborar
+    en lo que se esta haciendo en el codigo
+    
+- Revisores
+    Los revisores tienen acceso de lectura y revision. Tiene aceceso a 
+    lectura y estan designados para aprobar cambios de cualquier
+    ramificacion que se quiera hacer con el proyecto.
+    Esto ayuda a garantizar la revision del codigo antes de la fusion de 
+    una rama hacia la rama primcipal.
+
+- Administradores
+    Los administradores , tienen acceso completo de escritura y lectura
+    pueden cambiar configuraciones, gestionar colabotadores y realizar
+    cambios directos en la rama principal.
+
+rol basico es el usuario como tal.
+
+Roles adicionales:
+puedes tener mas roles a tu conveniencia del poryecto. 
+GitHub actions permite la automatizacion de estos roles
+asignar los roles de manera atutomatica y configurar los flujos de 
+trabajo para que asignen automaticamente los colaboradores a equipos especificos 
+o cambios de roles segun tu criterio eso es muy punto y aparte.
+
+Colaboracion segura en proyectos en GitHub
+------------------------------------------
+La colaboracion segura en proyectos github implica la implementacion de
+practicas y permisos adecuados para garantizar la integridad del codigo y 
+la proteccion de la informacion sensible. 
+
+imporante tener los roles especificos de los colaboradores, revisores y admins
+limitas el acceso segun sus responsabilidades para evitiar modificaciones no 
+autorizadas.
+tamnbien ya tener una configuracion de rama definida. para prevenir cambios directos
+y que los pull request sean revisandos entes de la fucion con main, puede evitar
+la introduccion de codigo malicioso y mal hecho.
+
+Hacer tambien una revision rigurosa del codigo es importante designar revisores respondables
+y asegurar que los cambios cumplan con los estandares de calidad antes de ser fusionados con
+el proyecto original
+
+Sabes gestionar los datos de acceso sensible que que se puedan manejar proteger la info sensible
+es fundamental. como claves api o tokens puede restringir puede restringir el acceso a datos
+confienciales que se encuentran en cualquier repositorio.
+
+La colaboracion segura implica en github permisos adecuados a usuarios y roles 
+la configuracion de ramas protegidas 
+y la revision rigurosa del codigo
+la revision de seguridad y vulnerabilidades son practicas escenciales asi como
+asignar roles especificos , configurar ramas protegidas 
+y hacer versiones rigirosas antes de fusionar los cambios.
+
+43. Políticas de seguridad en repositorios
+-------------------------------------------
+
 
 
 
