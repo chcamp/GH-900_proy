@@ -1076,6 +1076,34 @@ y hacer versiones rigirosas antes de fusionar los cambios.
 43. Políticas de seguridad en repositorios
 -------------------------------------------
 
+Implementando politicas de seguridad en github ,
+la spoliticas de seguridad en repositorios de github son reglas
+y configuraciones que se aplican para proteger la integridad y 
+confidencialidad del codigo fuente. Incluyen la gestion de acceso,
+la deteccion de secretos y la imposicion de practicas seguras para
+garantizar un entorno de desarrollo seguro.
+
+POr que son necesarias las politicas de seguridad??
+---------------------------------------------------
+
+Las politicas de segruridad en repositorios de github son necesarias
+para proteger el codigo fuente, garantizar un desarrollo seguro y cumplir
+con regulaciones. Estas politicas establecen reglas y configuraciones que
+previenen amenazas , gestionan el acceso y promueven practicas seguras.
+
+Componentes claves para la seguridad
+-------------------------------------
+
+- Gestion de accesp
+- Deteccion de secretos
+- Practicas seguras de desarrollo.
+
+ahi asignamos roles para estas areas de gestion y seguridad.
+
+44. Añadiendo politicas de seguridad practica
+----------------------------------------------
+
+
 
 
 
