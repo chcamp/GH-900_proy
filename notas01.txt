@@ -1170,6 +1170,11 @@ Una vez que el archivo esté en el repositorio, GitHub reconocerá la política 
 👉 Consejo: Si tu proyecto es público y colaborativo, es recomendable incluir también un CODE_OF_CONDUCT.md y un CONTRIBUTING.md para dar más claridad a la comunidad.
 ** copilot te puede ayudar a crear ese archivo.
 
+y asi se van creando las politicas de seguridad dentro de github..
+
+45. Agregando colaboradores y observando seguridad
+----------------------------------------------------
+
 
 
 
