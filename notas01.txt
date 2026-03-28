@@ -1103,6 +1103,77 @@ ahi asignamos roles para estas areas de gestion y seguridad.
 44. Añadiendo politicas de seguridad practica
 ----------------------------------------------
 
+Vamos a implementar medidad de seguridad en nuestros repositorios de git 
+vamos a seleccionar alguno de los repositorioes que tengamos de ejemplo..
+voy a seleccionar esta:
+
+https://github.com/chcamp/prueba01
+
+para crear una politica vamos arriba a la pestaña Security
+Vemos que hay varias politicas de segiridad:
+
+Security policy • Disabled
+Security advisories • Enabled
+Private vulnerability reporting •
+Dependabot alerts • Enabled
+Code scanning alerts • Needs setup
+Secret scanning alerts • Disabled
+
+esas politicas hay disponibles
+
+vamos al final Alertas de escaneo secreto > habilitar confoguracion
+
+en la parte izquierda hay un menu que dice Policy 
+entramos en el 
+solo estaba enseñando vamos a 
+informes > policica
+
+me sale ste error:
+
+por que no puedo configurar en github una poliitca de seguridad me sale este mensaje: No security policy detected
+This project has not set up a SECURITY.md file yet.
+Ese mensaje aparece porque GitHub detecta que tu repositorio no tiene configurado un archivo SECURITY.md, que es el documento estándar donde se define la política de seguridad del proyecto.
+
+🔑 Qué significa:
+
+GitHub busca ese archivo en la raíz del repositorio (o en .github/SECURITY.md).
+
+Si no existe, muestra "No security policy detected".
+
+Este archivo sirve para explicar cómo los usuarios deben reportar vulnerabilidades, qué prácticas de seguridad siguen, y a quién contactar.
+
+📌 Cómo solucionarlo paso a paso:
+
+En tu repositorio, crea un archivo llamado SECURITY.md.
+
+Dentro, escribe la política de seguridad. Un ejemplo básico:
+
+markdown
+# Política de Seguridad
+
+## Reporte de vulnerabilidades
+Si encuentras una vulnerabilidad, por favor repórtala enviando un correo a seguridad@ejemplo.com.  
+No abras un issue público para problemas de seguridad.
+
+## Versiones soportadas
+Actualmente damos soporte a las siguientes versiones:
+- v1.x
+- v2.x
+
+## Prácticas recomendadas
+- Mantén tus dependencias actualizadas.
+- Usa claves y tokens seguros.
+Haz commit y push de ese archivo a tu rama principal.
+
+Una vez que el archivo esté en el repositorio, GitHub reconocerá la política y dejará de mostrar el mensaje.
+
+👉 Consejo: Si tu proyecto es público y colaborativo, es recomendable incluir también un CODE_OF_CONDUCT.md y un CONTRIBUTING.md para dar más claridad a la comunidad.
+** copilot te puede ayudar a crear ese archivo.
+
+
+
+
+
 
 
 
